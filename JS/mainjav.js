@@ -6,6 +6,8 @@ var display = function(block_name, title) {
   // Change Title Color
   $('.menu').removeClass('active');
   $(title).addClass('active');
+    
+   
 }
 
 $('#subScription').on('click', function() {
