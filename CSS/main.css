@@ -500,7 +500,7 @@ main .clear{
 }
 
 .boxes{
-    width: 960px;
+    width: 100%;
     height: 218px;
     display: flex;
     margin-bottom: 30px;
@@ -508,6 +508,10 @@ main .clear{
 }
 .box-1{
     margin-right: 7px;
+    border: 2px solid #F0F0F0;
+    height: inherit;
+    width: 33%;
+    
 }
 
 .box-2{
@@ -525,7 +529,7 @@ main .clear{
 }
 .midSection .sectionHeader {
   width: 300px;
-  margin-bottom: 18px;
+  margin-bottom: 30px;
 }
 .sectionHeader {
   background: none repeat scroll 0 0 #ffffff;
@@ -539,7 +543,7 @@ main .clear{
 .menuLine {
   position: relative;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .menuLine div {
   position: relative;
@@ -547,10 +551,10 @@ main .clear{
 }
 .menuLine .menu {
   font-family: GillSans, "Gill Sans MT", Calibri, sans-serif;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
   text-transform: uppercase;
-  border-right-style: solid;
+ /* border-right-style: solid; */
   border-width: thin;
   border-color: #E5E5E5;
   margin-right: -3px;
@@ -563,9 +567,7 @@ main .clear{
   height: 15px;
   cursor: pointer;
 }
-.menuLine .menu#onLine {
-  border: none;
-}
+
 .middleBlock {
   display: none;
   height: 380px;
@@ -636,4 +638,21 @@ main img {
 
 .menu.active {
   color: #999;
+ padding-bottom: 30px;
+    border-bottom: 2px solid gray;
+    
 }
+
+
+---------------------------------------------------------------------------------------------------------------
+
+/* This is override*/ 
+
+.gray-box {
+    height: 218px;
+    width: 33%;
+    border: 2px solid #F0F0F0;
+    display: flex;
+    
+}
+
