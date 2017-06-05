@@ -9,7 +9,7 @@ ol,ul{
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none !important;
     
 }
 
@@ -504,10 +504,11 @@ main .clear{
     height: 218px;
     display: flex;
     margin-bottom: 30px;
+    justify-content: space-between;
     
 }
 .box-1{
-    margin-right: 7px;
+    
     border: 2px solid #F0F0F0;
     height: inherit;
     width: 33%;
@@ -515,7 +516,15 @@ main .clear{
 }
 
 .box-2{
-    margin-right: 7px;
+    border: 2px solid #F0F0F0;
+    height: inherit;
+    width: 33%;
+}
+
+.box-3{
+    border: 2px solid #F0F0F0;
+    height: inherit;
+    width: 33%;
 }
 
 
@@ -602,6 +611,8 @@ p.firstp {
     margin-bottom: 25px;
 }
 
+/* CTA BUTTON */ 
+
 .ctaPorter {
     background-color: none;
     cursor: pointer;
@@ -610,7 +621,7 @@ p.firstp {
     line-height: 20px;
     margin-bottom: 22px;
     margin-top: 10px;
-    max-width: 50%;
+    max-width: 60%;
     border: 2px solid !important;
     border-color: #F7941E !important;
     padding: 8px 24px 9px !important;
@@ -619,6 +630,18 @@ p.firstp {
     font-family: arial;
     
 }
+
+.ctaPorter:hover {
+    background-color: #F7941E;
+}
+
+
+.midSection > div a span{
+    font-weight: 600;
+}
+
+
+
 
 .meadly2{
     position: relative;
@@ -640,19 +663,13 @@ main img {
   color: #999;
  padding-bottom: 30px;
     border-bottom: 2px solid gray;
+    font-weight: 600;
     
 }
 
 
 ---------------------------------------------------------------------------------------------------------------
 
-/* This is override*/ 
+/* This is Bootstrap override*/ 
 
-.gray-box {
-    height: 218px;
-    width: 33%;
-    border: 2px solid #F0F0F0;
-    display: flex;
-    
-}
 
