@@ -113,10 +113,20 @@ a{
     border: 1px solid #cbcbcb;
 }
 .divider{
-    margin-right: 10px;
-    padding-right: 10px;
-    border-right: 1px solid black;
+    
+    
+    margin:  5px;
+    border-right: 1px solid gray;
+    height: 20px;
 }
+
+/*.divider2{
+    
+    
+    margin-top:  10px;
+    border-right: 1px solid white;
+    height: 10px;
+}*/
 
 .logo-strapline{
     margin: 0 auto;
@@ -160,16 +170,23 @@ a{
 }
 
 .nav-links-container {
-    position: static;
-    /* background: red; */
+    display: flex;
+    /*background: red;*/ 
     height: 100%;
+    margin: 0 auto;
+    width: 50%;
     
 }
 
+.nav-links-container > ul.nav-links{
+    display: flex;
+    margin: 0 auto;
+}
+
 .nav-links{
-    padding: 0 0 0 3px;
+    padding: 0 0 0 0px;
     display: inline;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     overflow: hidden;
      /*background-color: green; */
 }
@@ -177,7 +194,7 @@ a{
 li {
     vertical-align: top;
     padding-top: 8px;
-    padding-right:18px;
+    padding-right:30px;
     display: inline-block;
     /* background: blue; */
 }
@@ -193,8 +210,9 @@ li>a {
 }
 
 .main-nav>.inner .nav-links>li{
-    padding: 4px 5px 0 2px;
+    padding: 4px 5px 0 15px;
 }
+
 
 .main-nav>.inner .nav-links>li>a {
     padding: 10px 10px 9px;
@@ -668,8 +686,8 @@ main img {
 }
 
 
+
 ---------------------------------------------------------------------------------------------------------------
 
-/* This is Bootstrap override*/ 
-
+/* This is 6/10/17 Update + override*/ 
 
